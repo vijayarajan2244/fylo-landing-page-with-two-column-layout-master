@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+/*  font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif; */
+.button1{
+    width: 190px;
+    margin-left: -10px;
+}
+.underline{
+    text-decoration: underline;
+    color: hsl(170, 45%, 43%);
+}
+body{
+    background-image: url(/images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-y: 644px;
+}
+.top-title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+.top-para{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+.middle-title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.middle-para{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.bottom-title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.bottom-para{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.row2-left-content{
+    margin-bottom: 100px;
+}
+.curve{
+    background-color: hsl(240, 75%, 98%);
+    
+}
+.button2{
+    margin-top: 17px;
+    margin-left: 20px;
+}
+.field2{
+    margin-left: 20px;
+    width: 450px;
+}
+.footer-logo>img{
+    color: white;
+    filter: brightness(0) invert(1);
+
+}
+.about{
+    list-style-type: none;
+    margin-top:50px;    
+}
+.list-items{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.condition{
+    list-style-type: none;
+    margin-top:50px
+}
+.icon{
+    margin-top: 50px;
+
+}
+.icon>a{
+    color: white;
+    font-size: 20px;
+}
+.double-quotes{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.para{
+    margin-top: -15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 15px;
+}
+.works{
+    color: hsl(170, 45%, 43%);
+}
+.works:hover{
+    color: hsl(169, 49%, 66%);
+}
+.avatar>img{
+    float: left;
+    border-radius: 50px;
+    margin-left: 20px;
+    
+}
+.name{
+    position: relative;
+    left: 10px;
+    font-size: 16px;
+
+}
+.status{
+    position: relative;
+    left: 10px;
+    top: -5px;
+    font-size: 10px;
+    margin-bottom: 25px;
+
+}
+.author{
+    display: flex;
+    justify-content: center;
+}
+.link{
+    color: rgb(202, 173, 120);
+    text-decoration: none;
+}
+
+/* MD TO LG Screen */
+@media screen and (min-width:768px) and (max-width:992px) {
+    body{
+        background-image: url(/images/bg-curve-desktop.svg);
+        background-position-y: 950px;
+    }
+    .md-row1{
+        display: flex;
+        flex-direction:column-reverse;
+    }
+    .illustration-1{
+        display: flex;
+        justify-content: center;
+    }
+    .top-title{
+        margin-top: 40px;
+        
+        
+    }
+    .field1{
+        margin-top: 20px;
+        margin-left: 150px;
+        width: 350px;
+    }
+    .button1{
+        margin-left: 230px;
+        margin-top: 20px;
+    }
+    .md-row2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .illustration-2{
+        display: flex;
+        justify-content: center;
+    }
+    .middle-title{
+        margin-top: 70px;
+    }
+    .works{
+        display: flex;
+        justify-content: center;
+    }
+    .row2-left-content{
+        display: flex;
+        justify-content: center;
+    }
+    .bottom-title{
+        display: flex;
+        justify-content: center;
+    }
+    .field2,
+    .button2{
+        margin-left: 180px;
+    }
+    .field2{
+        width: 350px;
+    }
+    .button2{
+        width: 350px;
+    }
+    .footer-logo,
+    .footer-num,
+    .footer-mail{
+        display: flex;
+        justify-content: center;
+    }
+    .about{
+        display: flex;
+        flex-direction: row; 
+        list-style-type:disc;
+        justify-content: space-evenly;
+          
+    }
+    .condition{
+        display: flex;
+        flex-direction: row;
+        list-style-type: disc;
+        justify-content: space-evenly;
+    }
+    .icon{
+        display: flex;
+        flex-direction: row;
+        justify-content: center
+    }
+    
+    
+    
+}
+
+
+/* SM TO MD Screen */
+@media screen and (min-width:576px) and (max-width:768px) {
+    body{
+        background-image: none;
+    }
+    .md-row1{
+        display: flex;
+        flex-direction:column-reverse;
+    }
+    .illustration-1{
+        display: flex;
+        justify-content: center;
+    }
+    .top-title{
+        margin-top: 40px;
+        
+        
+    }
+    .field1{
+        margin-top: 20px;
+        margin-left: 80px;
+        width: 350px;
+    }
+    .button1{
+        margin-left: 165px;
+        margin-top: 20px;
+    }
+    .md-row2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .illustration-2{
+        display: flex;
+        justify-content: center;
+    }
+    .middle-title{
+        margin-top: 70px;
+    }
+    .works{
+        display: flex;
+        justify-content: center;
+    }
+    .row2-left-content{
+        display: flex;
+        justify-content: center;
+    }
+    .bottom-title{
+        display: flex;
+        justify-content: center;
+    }
+    .field2,
+    .button2{
+    
+        margin-left: 100px;
+    }
+    .field2{
+        margin-top: -80px;
+        width: 350px;
+    }
+    .button2{
+        width: 350px;
+    }
+    .footer-logo,
+    .footer-num,
+    .footer-mail{
+        display: flex;
+        justify-content: center;
+       
+    }
+    .about,
+    .condition{
+        list-style-type: disc;
+        margin-top: -40px;
+        margin-left: 190px;
+    }
+    .icon{
+        margin-top: -40px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+/* XS Screen */
+@media screen and (max-width:576px){
+    body{
+        background-image: url(/images/bg-curve-mobile.svg);
+        background-position-y: 1050px;
+    }
+    .md-row1{
+        display: flex;
+        flex-direction:column-reverse;
+    }
+    .illustration-1{
+        display: flex;
+        justify-content: center;
+    }
+    .illustration-1>img{
+        height: 250px;
+        width: 320px;
+    }
+    .top-title{
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        margin-top: 40px;
+        
+        
+    }
+    .top-para{
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+    }
+    .field1{
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 300px;
+    }
+    .button1{
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 300px;
+    }
+    .md-row2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .illustration-2{
+        display: flex;
+        justify-content: center;
+    }
+    .illustration-2>img{
+        height: 250px;
+        width: 320px;
+    }
+    .middle-title{
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 21px;
+        font-weight: 700;
+        margin-top: 70px;
+    }
+    .para{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 13.8px;
+    }
+    .works{
+        display: flex;
+        justify-content: center;
+    }
+    .row2-left-content{
+        display: flex;
+        justify-content: center;
+    }
+    .bottom-title{
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+    }
+    .bottom-para{
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+    }
+    .field2,
+    .button2{
+    
+        margin-left: 100px;
+    }
+    .field2{
+        margin-left: 30px;
+        margin-top: -80px;
+        width: 290px;
+    }
+    .button2{
+        margin-left: 30px;
+        width: 290px;
+    }
+    .footer-logo>img{
+        margin-left: 20px;
+        width: 180px;
+        height: 60px;
+    }
+    .footer-num,
+    .footer-mail{
+        margin-left: 20px;
+    }
+    .about{
+        margin-top: -70px;
+        margin-left: 5px;
+    }
+    .condition{
+        margin-top: -70px;
+        margin-left: 5px;
+    }
+    .icon{
+        margin-top: -70px;
+        display: flex;
+        justify-content: center;
+    }
+    .author{
+        font-size: small;
+        display: flex;
+        justify-content: center;
+    }
+    .link{
+        color: rgb(202, 173, 120);
+        text-decoration: none;
+    }
+   
+    
+}
+
